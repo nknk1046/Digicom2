@@ -1,0 +1,5 @@
+obj/
+objd/
+bin/
+packages/
+.vs/
