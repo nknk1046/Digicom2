@@ -59,7 +59,7 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-            <TextBox x:Name="ConditionResult" Grid.Column="1" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="852,132,-929,91.2" TextWrapping="Wrap" Text="" Width="273" RenderTransformOrigin="-0.454,-0.152" BorderBrush="#FF4E4D4D" TextChanged="ConditionResult_TextChanged" FontSize="18" FontFamily="Wide Latin" Foreground="Red" TextAlignment="Center">
+            <TextBox x:Name="ConditionResult" Grid.Column="1" VerticalContentAlignment="Bottom" HorizontalAlignment="Left" Margin="852,160,-929,63.2" TextWrapping="Wrap" Text="" Width="273" RenderTransformOrigin="-0.454,-0.152" BorderBrush="#FF4E4D4D" TextChanged="ConditionResult_TextChanged" FontSize="18" FontFamily="Wide Latin" Foreground="Red" TextAlignment="Center">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -71,7 +71,7 @@
                     </TransformGroup>
                 </TextBox.RenderTransform>
             </TextBox>
-            <TextBox HorizontalAlignment="Left" Height="41" Margin="15,211,-24,0" TextWrapping="Wrap" Text="  KOHEY(TRAINER)" VerticalAlignment="Top" Width="401" TextChanged="TextBox_TextChanged_4" FontFamily="Meiryo" FontWeight="Bold" FontSize="20" BorderBrush="#FF010205" Grid.ColumnSpan="2" />
+            <TextBox HorizontalAlignment="Left" Height="41" Margin="15,211,-24,0" TextWrapping="Wrap" Text="  KANAYAN(TRAINER)" VerticalAlignment="Top" Width="401" TextChanged="TextBox_TextChanged_4" FontFamily="Meiryo" FontWeight="Bold" FontSize="20" BorderBrush="#FF010205" Grid.ColumnSpan="2" />
             <Image x:Name="_Image" Stretch="fill" HorizontalAlignment="Left" Height="397" Margin="11,9.8,-20,-206" VerticalAlignment="Top" Width="401" Grid.ColumnSpan="2" Grid.Row="1"/>
             <Image x:Name="log_Image" Stretch="Fill" HorizontalAlignment="Left" Height="184" VerticalAlignment="Top" Width="561" Grid.ColumnSpan="2" Margin="0,-4,-169,0"/>
 
@@ -98,7 +98,7 @@
         <Label Content="COM-ZAP" HorizontalAlignment="Left" Height="41" Foreground="#FF2323ED" Background="#FFF9DB22" Margin="23,23,0,0" VerticalAlignment="Top" Width="225" FontFamily="Wide Latin" FontSize="24" FontWeight="Bold" Panel.ZIndex="3"/>
         -->
         <Button x:Name="_stopButton" Content="FINISH" Click="StopButton_Click" HorizontalAlignment="Left" Margin="619.2,161,0,0" VerticalAlignment="Top" Width="130" Height="38" FontFamily="Yu Gothic" FontSize="20" FontWeight="Bold" Grid.Column="1" />
-        <TextBox HorizontalAlignment="Left" Height="41" Margin="254.2,243,0,0" TextWrapping="Wrap" Text="  TAKEMOTO(TRAINEE)" VerticalAlignment="Top" Width="400" BorderBrush="#FF101215" FontFamily="Meiryo" FontSize="20" TextChanged="TextBox_TextChanged_3" FontWeight="Bold" Grid.Column="2" />
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="254.2,243,0,0" TextWrapping="Wrap" Text="  NOZOMU(TRAINEE)" VerticalAlignment="Top" Width="400" BorderBrush="#FF101215" FontFamily="Meiryo" FontSize="20" TextChanged="TextBox_TextChanged_3" FontWeight="Bold" Grid.Column="2" />
 
     </Grid>
 </Window>
